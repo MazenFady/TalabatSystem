@@ -10,6 +10,7 @@ namespace DomainLayer.Models.OrderModels
         [Required(ErrorMessage ="Product Name Required")]
         public string ProductName { get; set; } = null!;
 
+
         [Required(ErrorMessage = "PictureUrl Required")]
 
         public string PictureUrl { get; set; } = null!;
