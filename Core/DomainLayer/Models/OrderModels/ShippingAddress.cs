@@ -7,6 +7,7 @@ namespace DomainLayer.Models.OrderModels
     public class ShippingAddress
     {
         [Required(ErrorMessage = "FirstName Required")]
+
         public string FirstName { get; set; } = null!;
         [Required(ErrorMessage = "LastName Required")]
         public string LastName { get; set; } = null!;

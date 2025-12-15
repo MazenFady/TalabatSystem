@@ -92,10 +92,10 @@ namespace PersistenceLayer
                 //ToDO
             }
         }
-
+         
         public async Task IdentityDataSeedAsync()
         {
-            try
+            try 
             {
                 if (!_roleManager.Roles.Any())
                 {
@@ -126,6 +126,8 @@ namespace PersistenceLayer
                     await _userManager.AddToRoleAsync(user02, "SuperAdmin");
 
                 }
+
+
 
 
             }
